@@ -24,8 +24,20 @@ body {
     background-image: url(grieta.jpg);
     background-position: center top; 
     color: white;  
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
 }
 
 h1, h2, p, a {
     margin: 10px; 
+}
+
+.Titulo-lol{
+    font-family: 'Impact', sans-serif;
+    font-size: 70px; 
+    color: #f8db5a; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
 }
