@@ -1,0 +1,40 @@
+h1{
+    font-family: 'Impact', sans-serif;
+    font-size: 70px; 
+    color: #f85a5a; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2{
+    font-family:revert;
+    font-size: 50px;
+    color: green;
+    
+}
+
+.info-pesi{
+    font-size: 50px;
+    display: flex;
+    flex: 0 0 auto;
+    width: 100%;
+    line-height: 1.2;
+
+}
+
+.akali{
+    height: 120px ;
+    width: 100px;
+}
+.mordekaiser{
+
+}
+
+.trundle{
+
+}
+
+.fondo{
+
+
+}
