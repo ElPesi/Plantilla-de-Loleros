@@ -4,37 +4,47 @@ h1{
     color: #f85a5a; 
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-left: 20px;
 }
 
 h2{
     font-family:revert;
     font-size: 50px;
-    color: green;
+    color: rgb(255, 255, 255)12, 221, 212);
+    margin-left: 30px;
     
 }
 
+.info-pesi>p{
+    width: 50%;
+    margin-left: 30px;
+}
+
 .info-pesi{
+    display: grid;
+    grid-template-rows: max-content;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
     font-size: 50px;
-    display: flex;
-    flex: 0 0 auto;
-    width: 100%;
     line-height: 1.2;
-
 }
 
-.akali{
-    height: 120px ;
-    width: 100px;
-}
-.mordekaiser{
-
-}
-
-.trundle{
-
+.imagenes>img{
+    display: grid;
+    max-width: 700px;
+    max-height: 600px; 
+    margin-right: 20px;
 }
 
 .fondo{
-
-
+    background-image: url("fondo.jpg");
+    background-position: center top;
+    color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: -1px -1px 0 black,  
+                1px -1px 0 black,
+                -1px  1px 0 black,
+                1px  1px 0 black;
 }
