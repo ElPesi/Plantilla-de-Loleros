@@ -1,0 +1,47 @@
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 120px;
+}
+
+h2 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.info-jugador {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 400px; 
+    height: 400px;
+}
+
+body {
+    background-image: url(Imagenes/grieta.jpg);
+    background-position: center top; 
+    color: white;  
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+h1, h2, p, a {
+    margin: 10px; 
+    text-shadow: -1px -1px 0 black,  
+                1px -1px 0 black,
+                -1px  1px 0 black,
+                1px  1px 0 black;
+}
+
+.Titulo-lol{
+    font-family: 'Impact', sans-serif;
+    font-size: 70px; 
+    color: #f8db5a; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
